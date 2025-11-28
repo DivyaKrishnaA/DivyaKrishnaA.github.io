@@ -118,13 +118,14 @@ nav .container {
 }
 
 .btn-primary {
-    background-color: white;
-    color: var(--primary-color);
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: var(--primary-color);
 }
 
 .btn-secondary {
